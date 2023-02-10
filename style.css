@@ -1,0 +1,44 @@
+body * {
+  font-family: "IBM Plex Mono";
+}
+.cpf {
+  height: 30px;
+  width: 50vw;
+  margin: 20px;
+  display: block;
+  padding: 5px;
+  font-family: "IBM Plex Mono";
+  background: rgba(0, 0, 0, 0.1);
+  text-align: center;
+  box-shadow: 7px -2px 5px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.formatar {
+  background: rgb(32, 32, 92);
+}
+.retirar {
+  background: rgb(229, 86, 20);
+}
+
+.formatar,
+.retirar {
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  justify-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.div1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
+.div2 {
+  display: flex;
+  justify-content: center;
+}
