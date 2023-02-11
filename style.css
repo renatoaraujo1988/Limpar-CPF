@@ -7,7 +7,7 @@ body * {
   margin: 20px;
   display: block;
   padding: 5px;
-  font-family: "IBM Plex Mono";
+  font-size: 1.2rem;
   background: rgba(0, 0, 0, 0.1);
   text-align: center;
   box-shadow: 7px -2px 5px 0px rgba(0, 0, 0, 0.5);
@@ -30,6 +30,7 @@ body * {
   justify-items: center;
   color: white;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .div1 {
